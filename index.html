@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي - أخبار الألعاب</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#6a11cb">
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <header>
+    <h1>🎮  الجوهري</h1>
+    <p>أخبار الألعاب أول بأول</p>
+    <nav>
+      <a href="#about">عني</a>
+      <a href="#news">الأخبار</a>
+      <a href="#contact">تواصل معي</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- عني -->
+    <section id="about">
+      <h2>من أنا؟</h2>
+      <p>
+        مرحباً! أنا [الجوهري]، من ليبيا، عاشق للألعاب.
+        في هذا الموقع أشارك معكم آخر أخبار الألعاب والإصدارات الجديدة.
+      </p>
+    </section>
+
+    <!-- الأخبار -->
+    <section id="news">
+      <h2>آخر الأخبار</h2>
+
+      <article class="card">
+        <h3>عنوان الخبر الأول</h3>
+        <span class="date">6 نوفمبر 2026</span>
+        <p>اكتب هنا تفاصيل الخبر. غيّر النص هذا بخبرك.</p>
+      </article>
+
+      <article class="card">
+        <h3>عنوان الخبر الثاني</h3>
+        <span class="date">5 نوفمبر 2026</span>
+        <p>انسخ البلوك هذا (من article إلى /article) وكرره لكل خبر جديد.</p>
+      </article>
+
+    </section>
+
+    <!-- تواصل -->
+    <section id="contact">
+      <h2>تواصل معي</h2>
+      <p>إيميل: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+  </script>
+</html>
